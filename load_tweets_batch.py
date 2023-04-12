@@ -148,7 +148,7 @@ def insert_tweets(connection, tweets, batch_size=1000):
         _insert_tweets(connection, tweet_batch)
 
 
-def _insert_tweets(connection,input_tweets):
+def _insert_tweets(connection, input_tweets):
     '''
     Inserts a single batch of tweets into the database.
 
